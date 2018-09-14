@@ -1,0 +1,28 @@
+#include <windows.h>
+
+#include <ntverp.h>
+
+#define VER_FILETYPE                VFT_DRV
+#define VER_FILESUBTYPE             VFT2_DRV_SYSTEM
+#define VER_FILEDESCRIPTION_STR     "Keyboard Driver used to disable ALT+CTRL+DEL"
+#define VER_INTERNALNAME_STR        "ACDLocker.sys"
+
+#define VER_COMPANYNAME_STR "Chandrakant Tripathi"
+
+#define VER_LEGALCOPYRIGHT_YEARS   "2018"
+
+#define VER_LEGALCOPYRIGHT_STR "Copyright (C) Chandrakant Tripathi 2018"
+
+#define VER_PRODUCTNAME_STR "AltCtrlDel Locker"
+
+#define VER_PRODUCTVERSION 1,00,00,000
+
+#define VER_PRODUCTVERSION_STR "1.00.0.00"
+
+#define VER_FILEVERSION VER_PRODUCTVERSION
+
+#define VER_FILEVERSION_STR VER_PRODUCTVERSION_STR
+
+#include "common.ver"
+
+

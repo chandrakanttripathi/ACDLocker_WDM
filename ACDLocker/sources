@@ -1,0 +1,8 @@
+TARGETNAME=ACDLocker
+TARGETTYPE=DRIVER
+
+TARGETPATH=bin
+
+SOURCES=ACDLocker.c \
+        ACDLocker.rc
+
